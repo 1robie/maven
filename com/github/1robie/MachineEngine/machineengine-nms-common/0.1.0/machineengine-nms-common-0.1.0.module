@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.1robie.MachineEngine",
+    "module": "machineengine-nms-common",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-api",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        },
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "26.3.build.156-beta"
+          }
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-core",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-bukkit",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-nms-common-0.1.0.jar",
+          "url": "machineengine-nms-common-0.1.0.jar",
+          "size": 2940,
+          "sha512": "e7758403120a1081c0c59ef9103a83b25e042bb8c986d7b1c7f6933c82a3eac90de282998ca4a334a1090aca6730fd7a8b6e6537f40a5088e2c28807084149cc",
+          "sha256": "2c3707c395c3c1286602187caaf0d3552892258454939f6ef884cda4ca85a5d1",
+          "sha1": "90d2a1d28f54060f265c8a4b9d30fa2b8c4f808a",
+          "md5": "dd5ddfaeb9a51affef04c53809e3b39c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-api",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-nms-common-0.1.0.jar",
+          "url": "machineengine-nms-common-0.1.0.jar",
+          "size": 2940,
+          "sha512": "e7758403120a1081c0c59ef9103a83b25e042bb8c986d7b1c7f6933c82a3eac90de282998ca4a334a1090aca6730fd7a8b6e6537f40a5088e2c28807084149cc",
+          "sha256": "2c3707c395c3c1286602187caaf0d3552892258454939f6ef884cda4ca85a5d1",
+          "sha1": "90d2a1d28f54060f265c8a4b9d30fa2b8c4f808a",
+          "md5": "dd5ddfaeb9a51affef04c53809e3b39c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-nms-common-0.1.0-sources.jar",
+          "url": "machineengine-nms-common-0.1.0-sources.jar",
+          "size": 1861,
+          "sha512": "1c4af6e22429e25f156b4982b54f206a768409c6940edd9ba791575e1e3037f7f39aebb3be63244c48aea713893400565bc9c415e2dfe086b1cff549d51608ac",
+          "sha256": "aedf323091aebda5072e2f72ad6a981e1a0a12675edb246c6c3b833c8bf690e8",
+          "sha1": "6412453be9d87e715d94f694915efb8ae274ed1f",
+          "md5": "376dadafa5ce774e4710dd09887306aa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-nms-common-0.1.0-javadoc.jar",
+          "url": "machineengine-nms-common-0.1.0-javadoc.jar",
+          "size": 4147187,
+          "sha512": "95f4ea9c76a91bd124ecd3744b2a8256ef45fbbf87222364aa98c397c9e0532896b708883a3d44abecdf7b18235c0bc7cf4b89ef04df9e659d10c16373efcd6f",
+          "sha256": "4eb476e55c10957a37d492c00c311438ac1f66239c7677c4ba194dcc943e2b4e",
+          "sha1": "6f9f5bfcd9d451edf1fa01280886b4100ab86f4b",
+          "md5": "770421eb1f2b7df83dc1d30c43b6cb3c"
+        }
+      ]
+    }
+  ]
+}

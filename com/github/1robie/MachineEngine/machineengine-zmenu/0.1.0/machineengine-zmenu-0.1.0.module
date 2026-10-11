@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.1robie.MachineEngine",
+    "module": "machineengine-zmenu",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-common",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        },
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "26.3.build.156-beta"
+          }
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-core",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-bukkit",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-zmenu-0.1.0.jar",
+          "url": "machineengine-zmenu-0.1.0.jar",
+          "size": 53674,
+          "sha512": "28d19c8178f81a7aa3a1b6abb50007a6b6ef9675565cadc94ecb370e6ce80500c9e8591f5639f6bc8fcd5a03b44eed7a888bde9dee4fde81f7db113ec21e5f73",
+          "sha256": "9ebb5d947c6fdfe88d11d18ad907dd190517dfe0ceb3f087248942f2e330d519",
+          "sha1": "5e72624101e983ef4b63b2370f60582abfcb747c",
+          "md5": "6c019bcaa2887ffd6ed1c50e123cca48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-common",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-zmenu-0.1.0.jar",
+          "url": "machineengine-zmenu-0.1.0.jar",
+          "size": 53674,
+          "sha512": "28d19c8178f81a7aa3a1b6abb50007a6b6ef9675565cadc94ecb370e6ce80500c9e8591f5639f6bc8fcd5a03b44eed7a888bde9dee4fde81f7db113ec21e5f73",
+          "sha256": "9ebb5d947c6fdfe88d11d18ad907dd190517dfe0ceb3f087248942f2e330d519",
+          "sha1": "5e72624101e983ef4b63b2370f60582abfcb747c",
+          "md5": "6c019bcaa2887ffd6ed1c50e123cca48"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-zmenu-0.1.0-sources.jar",
+          "url": "machineengine-zmenu-0.1.0-sources.jar",
+          "size": 25106,
+          "sha512": "d93d5b1fd9b06289664533c1695372bac7d85f4ef440f920f12a22ab7034bce1fd2ec5a836c38f009f28b01a2c3be484b2aa9644a9abc6215427934c5d050fbc",
+          "sha256": "1e345f2ba8b43d10fc8ec9baacb1dd50757d99bf72e18405402aac8ea9b48f4c",
+          "sha1": "63faac2d0538955a5c59dfff11f020e1dd665c91",
+          "md5": "d0a97402e474be17a7085cf6817a28b2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-zmenu-0.1.0-javadoc.jar",
+          "url": "machineengine-zmenu-0.1.0-javadoc.jar",
+          "size": 4150201,
+          "sha512": "61b9553bd4d16f5c270f0fbbfa6e9201a01ae5f2d65dd7ec9eaf15059fd7af5c21e5a3cf49ad01bf3711acc7e488e0a24d0e483b03058f6486dab750ab90d44a",
+          "sha256": "1d8e1ec40a49e256ade1135fcbd7ea7419e23bbd5adb3dbaef90f705d48fe4ad",
+          "sha1": "ed291076bb7230c4eb9556f433d9f2df6dde5c01",
+          "md5": "208eedd7160f6d8952c6caca90539113"
+        }
+      ]
+    }
+  ]
+}

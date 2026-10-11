@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.1robie.MachineEngine",
+    "module": "machineengine-nms-v26_3",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-nms-v26_3-0.1.0.jar",
+          "url": "machineengine-nms-v26_3-0.1.0.jar",
+          "size": 2007,
+          "sha512": "237a1c9bee67732fcc05ac1cce2c3be129a3c45111d2e5130dfb5049870012eda7c676f6add2cbf5b7c28667adcd9c77f2e926d69dea5593d8b5878974afea85",
+          "sha256": "0d1fa76ade0876f531280d8664c2da9581eda66220dcbe7ddd9f069560f61880",
+          "sha1": "a3d292f72791bf286a34856cae4ce29064ad1e13",
+          "md5": "a042454cfb2f75aa76e1a22e808880d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-nms-common",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "excludes": [
+            {
+              "group": "io.papermc.paper",
+              "module": "*"
+            },
+            {
+              "group": "net.momirealms",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-nms-v26_3-0.1.0.jar",
+          "url": "machineengine-nms-v26_3-0.1.0.jar",
+          "size": 2007,
+          "sha512": "237a1c9bee67732fcc05ac1cce2c3be129a3c45111d2e5130dfb5049870012eda7c676f6add2cbf5b7c28667adcd9c77f2e926d69dea5593d8b5878974afea85",
+          "sha256": "0d1fa76ade0876f531280d8664c2da9581eda66220dcbe7ddd9f069560f61880",
+          "sha1": "a3d292f72791bf286a34856cae4ce29064ad1e13",
+          "md5": "a042454cfb2f75aa76e1a22e808880d5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-nms-v26_3-0.1.0-sources.jar",
+          "url": "machineengine-nms-v26_3-0.1.0-sources.jar",
+          "size": 1491,
+          "sha512": "8e39d333a51e2cc6b1805aec57398e1d3f7abeb26e16ebf4fc8dee6d5fbf050c06a346cabec8df6801af86e27a5d3e52ada6c3837216bbc4af9831bfcd33723e",
+          "sha256": "2f6a6c6c8a237af23af1c1cf17de7ed4ed3a32809a46888e8b5382e80495976d",
+          "sha1": "7f54a59e49481e40bea24ab9ddce2c40f47fd7ed",
+          "md5": "e7efa958c02d3b7980b31996f65cfb39"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-nms-v26_3-0.1.0-javadoc.jar",
+          "url": "machineengine-nms-v26_3-0.1.0-javadoc.jar",
+          "size": 4147251,
+          "sha512": "84efa43f4ae8b615f918682b1ad6b1b7a03e470443388c05279144084a422108fe96c44a3423b8bd12049d5f198a94ae844d7759c19ab83c8bfccc2dd6b143b9",
+          "sha256": "1f41bdfe36d70b8158d1e6eafd2d9c5d568ac16c9ba407a741b4f951e67dcde3",
+          "sha1": "e68aceb4818b6ab05ac69312e2965488bbb59d17",
+          "md5": "5cda89cbff1373a4dc970a9b7696758a"
+        }
+      ]
+    }
+  ]
+}

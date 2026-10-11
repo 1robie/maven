@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.1robie.MachineEngine",
+    "module": "machineengine-plugin",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        },
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "26.3.build.156-beta"
+          }
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-core",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-bukkit",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-plugin-0.1.0.jar",
+          "url": "machineengine-plugin-0.1.0.jar",
+          "size": 16065,
+          "sha512": "20474e72d74f645ac474d33d90e790db361365d0c54fb23a4ff0fb662bcc5de7fb5150bfbd6b7663d046d9178fd99d243ad6154d74730c13f3857bdab309012e",
+          "sha256": "521841424da9b33ea9adefd8580ce7eba5e389059e9766ea22b86d7d9d29cc71",
+          "sha1": "b23ee4ffe092bde96ccc7d6f45f1b5c3bfe6889c",
+          "md5": "3f5974491b3d6967bfaa6226f1e0da0c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-common",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-zmenu",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-nms-v1_20_6",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.github.1robie.MachineEngine",
+          "module": "machineengine-nms-v26_3",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-plugin-0.1.0.jar",
+          "url": "machineengine-plugin-0.1.0.jar",
+          "size": 16065,
+          "sha512": "20474e72d74f645ac474d33d90e790db361365d0c54fb23a4ff0fb662bcc5de7fb5150bfbd6b7663d046d9178fd99d243ad6154d74730c13f3857bdab309012e",
+          "sha256": "521841424da9b33ea9adefd8580ce7eba5e389059e9766ea22b86d7d9d29cc71",
+          "sha1": "b23ee4ffe092bde96ccc7d6f45f1b5c3bfe6889c",
+          "md5": "3f5974491b3d6967bfaa6226f1e0da0c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-plugin-0.1.0-sources.jar",
+          "url": "machineengine-plugin-0.1.0-sources.jar",
+          "size": 11469,
+          "sha512": "8108e121e36af0b8962457af6d455fdbe130e78da354de726a74db506e8c6572e4198a031926acafcd6cba96d2cd8d5c12afc9f50d4ab8b6e43979c3090d97e8",
+          "sha256": "43a7bd9fbb521b7fe93d49e79530b676b1a505314010f751d2b5a20796ec9f1b",
+          "sha1": "3ec219e8c8416a4f520019025ac7a9ce4924f1a9",
+          "md5": "03d5fd6bc32c93eb230f20a4eb1233cd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-plugin-0.1.0-javadoc.jar",
+          "url": "machineengine-plugin-0.1.0-javadoc.jar",
+          "size": 4149990,
+          "sha512": "3783a1680fe0e264b9c2c0c88a463d58f89c1fed0fead018bc465b5f90e84cb21884a14692540e66559834df25112131cea6edd522fb00a3d3618b5973c94e28",
+          "sha256": "7f12a5d15fe2967f229c83915455faf9948b62e4b29b98bce772a20765f485da",
+          "sha1": "f6ae66f1a0aa954c4e8d1067c67f5e5f4d2ef27d",
+          "md5": "b89e1d63b63b989ec69203244e4a7cfa"
+        }
+      ]
+    }
+  ]
+}

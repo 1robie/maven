@@ -1,0 +1,142 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.1robie.MachineEngine",
+    "module": "machineengine-api",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "26.0.2"
+          }
+        },
+        {
+          "group": "io.papermc.paper",
+          "module": "paper-api",
+          "version": {
+            "requires": "26.3.build.156-beta"
+          }
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-core",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.momirealms",
+          "module": "craft-engine-bukkit",
+          "version": {
+            "requires": "26.10-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "machineengine-api-0.1.0.jar",
+          "url": "machineengine-api-0.1.0.jar",
+          "size": 375308,
+          "sha512": "9ecb4047b0e753d9632507f422a7c8af7f79ed82c55e9fc19a92934607e9aeee8a08805b5a8bea1f706ee1fdd672ffde5d651edb73fa269b432eaa148c760d91",
+          "sha256": "5b3bd0aeb951e85ad5bf1ad3e3c536f0398da0f6945a335513451c6be6616ae0",
+          "sha1": "757a6c264d896a2c0d02eaaac20eee5bd7e81b8b",
+          "md5": "66c2599a66e1252206404e45cde6017b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-api-0.1.0.jar",
+          "url": "machineengine-api-0.1.0.jar",
+          "size": 375308,
+          "sha512": "9ecb4047b0e753d9632507f422a7c8af7f79ed82c55e9fc19a92934607e9aeee8a08805b5a8bea1f706ee1fdd672ffde5d651edb73fa269b432eaa148c760d91",
+          "sha256": "5b3bd0aeb951e85ad5bf1ad3e3c536f0398da0f6945a335513451c6be6616ae0",
+          "sha1": "757a6c264d896a2c0d02eaaac20eee5bd7e81b8b",
+          "md5": "66c2599a66e1252206404e45cde6017b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-api-0.1.0-sources.jar",
+          "url": "machineengine-api-0.1.0-sources.jar",
+          "size": 180524,
+          "sha512": "66992a2f5968d7cb3931e7787ef4900db343f46587d5f4ede832b651e8b34be653e6f264c9a5ffbd356edd1aaa35bd7249a11379f7b0f0eb7a79a7c22b70e04c",
+          "sha256": "4a191e63665d9e9e7480e85fc22ac9045f5801362566cd99a2c6b3ec19712ca0",
+          "sha1": "a86e3d237dd2ceeafe69e96ab19af7074b554c84",
+          "md5": "f9b7a24227fbb6185693b10610e98868"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "machineengine-api-0.1.0-javadoc.jar",
+          "url": "machineengine-api-0.1.0-javadoc.jar",
+          "size": 5207058,
+          "sha512": "7a0f18f3999d6e4850e9738802a3b9c15d3b879f5223b7cdd925621d6543b04c35eef83f897c0dde6a98f54772057d93c940554ca46ae8f8935816b9874792c2",
+          "sha256": "4e9d829427854b1bf72d3d8b0a5d86b98d4d056f386f0b5589cf33878204d957",
+          "sha1": "15e86459808d10f72b251a36b5bcdf65203179e4",
+          "md5": "f4680fc98e01a9dcafea6a4452573ae1"
+        }
+      ]
+    }
+  ]
+}
